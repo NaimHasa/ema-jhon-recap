@@ -1,0 +1,33 @@
+.product {
+    width: 300px;
+    height: 508px;
+    position: relative;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+.product img {
+    width: 286px;
+    height: 286px;
+    border-radius: 20px;
+    margin: 7px;
+
+}
+
+.adToCart {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-weight: bold;
+    background-color: rgb(255, 205, 140);
+
+}
+
+.adToCart:hover {
+    background-color: rgb(255, 174, 0);
+}
+
+.product-detels {
+    padding: 10px;
+    line-height: 7px;
+}
